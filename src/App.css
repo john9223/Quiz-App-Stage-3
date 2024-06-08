@@ -1,0 +1,112 @@
+body{
+  background-color: #30217d;
+  padding: 100px;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1600px;
+  height: 500px;
+
+}
+.main button{
+  margin: 40px;
+  width: 300px;
+  background-color: #0bb708;
+  color: white;
+  border-radius: 25px;
+}
+.main h1{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.quiz-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1600px;
+  height: 500px;
+}
+.quiz-subcontainer{
+  background-color: white;
+  padding: 50px;
+  padding-left: 200px;
+  padding-right: 200px;
+  text-align: center;
+  margin: 0;
+}
+.options{
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;  
+}
+#prev{
+  background-color:#3e7eaa;
+}
+
+#next{
+  background-color: #008001;
+}
+
+#quit{
+ background-color: #ff0000;
+}
+.options-btn{
+  color: white;
+  background-color: #239eea;
+  border: 1px solid white;
+  border-radius: 25px;
+  width: 300px;
+}
+.quiz-subcontainer h2,h4{
+  color: black;
+}
+.ques-count{
+  color: black;
+  display: flex;
+  justify-content: flex-start;
+}
+.result-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1600px;
+  height: 500px;
+}
+.resultBoard{
+  background-color: white;
+  padding: 50px;
+  padding-left: 200px;
+  padding-right: 200px;
+  text-align: center;
+  margin: 0;
+}
+.heading{
+  display: flex;
+  justify-content: center;
+}
+.pratice{
+  color: black;
+}
+.score{
+  color: blue;
+}
+.result{
+  color: black;
+  display: flex;
+  justify-content: space-between;
+}
+.buttons-result{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.buttons-result button{
+  padding: 11px;
+  margin: 6px;
+  width: 200px;
+
+}
